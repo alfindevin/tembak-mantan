@@ -1,18 +1,1 @@
-<!doctype html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tembak Mantan 💔</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="app">
-    <header class="topbar"><div><span class="eyebrow">RELATIONSHIP SURVIVAL ARCADE</span><h1>TEMBAK MANTAN <span>💔</span></h1></div><button id="startBtn">MULAI GAME</button></header>
-    <section class="hud"><div>SKOR <b id="score">0</b></div><div>NYAWA <b id="lives">❤️❤️❤️</b></div><div>LEVEL <b id="level">1</b></div><div>BEST <b id="best">0</b></div></section>
-    <section id="game" class="game"><div class="hint">GERAK: ← → / A D &nbsp; • &nbsp; TEMBAK: SPASI</div><div id="player" class="player">🧍</div><div id="message" class="message">Klik “Mulai Game”<br><small>Hancurkan semua kenangan buruk.</small></div><div class="mobile-controls"><button id="leftBtn">◀</button><button id="fireBtn">💥</button><button id="rightBtn">▶</button></div></section>
-    <footer><span>Target hari ini: move on.</span><span id="status">Siap membalas dengan sehat.</span></footer>
-  </main>
-  <script src="game.js"></script>
-</body>
-</html>
+<!doctype html><html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tembak Mantan 💔</title><link rel="stylesheet" href="style.css"></head><body><main class="app"><header><div><span class="eyebrow">TARGET HARI INI: MOVE ON</span><h1>TEMBAK MANTAN 💔</h1></div><button id="pause" disabled>Jeda</button></header><section class="hud" aria-label="Statistik permainan"><div>SKOR <b id="score">0</b></div><div>NYAWA <b id="lives">♥ ♥ ♥</b></div><div>LEVEL <b id="level">1</b></div><div>BEST <b id="best">0</b></div><div>COMBO <b id="combo">0×</b></div></section><div id="bossHud" hidden>MANTAN NGAJAK BALIK <progress id="bossHp" max="8" value="8"></progress></div><section class="game" id="game" aria-label="Arena permainan"><div id="player" class="player" aria-label="Pemain">🍏</div><div id="overlay" class="overlay"><h2 id="title">Siap move on?</h2><p id="description">Tembak chat dan kenangan sebelum mencapai bawah.</p><button id="play">Mulai game</button><small>← → / A D: gerak · Tahan Spasi: tembak · P: jeda</small></div></section><nav class="controls" aria-label="Kontrol sentuh"><button id="left" aria-label="Gerak kiri">◀</button><button id="fire" aria-label="Tembak">TEMBAK</button><button id="right" aria-label="Gerak kanan">▶</button></nav><footer><span id="status" role="status">Mantan lewat? Tembak kenangannya.</span><span>Chat fiktif, drama nyata.</span></footer></main><script src="game.js"></script></body></html>
